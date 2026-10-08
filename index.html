@@ -68,6 +68,10 @@ h1{margin:0;font-size:clamp(56px,9vw,128px);line-height:.9;font-weight:600;lette
 .list .n{display:inline-block;min-width:3.6em;color:var(--link)}
 .list.sm{gap:20px;max-width:64ch}
 .list.row{flex-direction:row;flex-wrap:wrap;gap:12px 48px;font-size:18px;line-height:1.35;letter-spacing:-.01em}
+.belief{margin:0 32px;padding:40px 0 64px;border-top:1px solid var(--rule);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:32px}
+.belief p{grid-column:4 / 12;margin:0;font-size:clamp(24px,2.8vw,36px);line-height:1.2;font-weight:500;letter-spacing:-.025em}
+.belief p+p{margin-top:.6em;color:var(--muted)}
+@media (max-width:760px){.belief p{grid-column:1 / -1}}
 footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted)}
 /* photography */
 .ph-title{margin:48px 32px 20px}
@@ -111,7 +115,7 @@ footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-s
 <header class="hero pad">
 <h1><span class="fn">Hojeong</span> <span class="ln"><span class="lw"><span class="ov">“Ava”</span> Lee</span></span></h1>
 </header>
-<div class="stmt"><p class="fish">The torpedo fish is from Plato’s Meno (80a).</p><p class="lede">My philosophical research centers on moral agency:<br>how we judge, feel, and act, and what changes when AI enters the picture.</p><p class="policy">My MA combines philosophy with political science, and I am also interested in bringing these questions into policy, especially AI governance and human rights in the digital age.</p></div>
+<div class="stmt"><p class="fish">The torpedo fish is from Plato’s Meno (80a).</p><p class="lede">My philosophical research centers on moral agency:<br>how we judge, feel, and act, and what changes when AI enters the picture.</p><p class="policy">My MA combines philosophy with political science, and I hope to bring these questions into international policy, especially AI governance and human rights.</p></div>
 <div class="info pad">
 <div>
 <h2 class="lab">Now</h2>
@@ -138,6 +142,7 @@ footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-s
 <p class="ava">Feel free to call me Ava!</p>
 </div>
 </div>
+<section class="belief"><p>Living with others, I think, asks for two things at once: the charity to read them as making sense on their own terms, and the capacity to feel wronged on their behalf.</p><p>Understanding without feeling is cold; feeling without understanding is blind. I hope to live and work in a way that holds both.</p></section>
 <section class="sec"><h2>My Questions</h2><ol class="list"><li><span class="n">One.</span>What are moral intuitions, and can they ground moral judgment?</li><li><span class="n">Two.</span>What makes us morally responsible for what we do?</li><li><span class="n">Three.</span>What are emotions, and how do they move us to act?</li><li><span class="n">Four.</span>How is self-deception possible, and what do we owe to the truth?</li><li><span class="n">Five.</span>What is agency, and can it ground human rights?</li><li><span class="n">Six.</span>What happens to our judgment, emotions, and autonomy when we relate to AI?</li></ol></section>
 <section class="sec"><h2>Writing</h2><ol class="list sm"><li>Self-Deception in Human–AI Emotional Relations: What Does the Duty to Seek Truth Require Us to Know?<span class="m">Seminar paper, Ethics of Large Language Models · 2026</span></li><li>The Past of the Future: Différance, the Gift, and the Structure of Economic Uncertainty<span class="m">Seminar paper on Derrida, Economic Uncertainty and Risk: Phenomenology and Feminist Thought · 2026</span></li><li>Agency as Ground, Capacity as Criterion: The Structural Tension in Griffin’s Theory of Human Rights<span class="m">Seminar paper, Philosophical Theories of Human Rights · 2026</span></li><li>Is Intuition a Legitimate Ground for Moral Judgment? Redefining Intuition as Perception Against the Evolutionary Debunking Argument<span class="m">Seminar paper, Introduction to Normative Ethics · 2026</span></li></ol></section>
 <footer>Last updated: October 2026</footer>

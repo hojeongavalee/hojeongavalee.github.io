@@ -32,46 +32,49 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
 ::selection{background:var(--accent);color:#fff}
 .stmt{cursor:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEgklEQVR4nOxXa0ikVRh+v7k4N++UE1HS6oiaof1Kli5eWo3RpBVGRA0LL4gECYqXIlppCVEUSdBMUUExDIVwAkURzMUMRIcFa5lUArFwZ3VZLzM699nnDAij6Djj58r+2Ac+vjPnvN95n/O+z3nPGRFdE2Qy2esSiSSatR0Ox8ODgwM9a4voGhAUFPSSVCp9EB8f79jc3JSbTKZ7IHCLjQmIB+Ry+avsuchOoVB0ZWdni2dnZ0M4jnNZrdbB47FLEwgNDb2LkP4fEBDwH9p3zrMLCQnJFAqFt9va2iRTU1NkNBrtu7u7v/AiAIefYyXftLa2Eh40uUb0FZ9hitTLhlpaWsTh4eHU19dns9vtv8P2ZmBgYDwz8FcDorCwMDUc9lZXV1NJSYm7c2tri9rb2/sw9gSYRJed9UdERNxNTEwMKiwsJKfTSXNzc2KXy5WF77MQvW1EQ+lTBFiewfo7TPgIP7XFxcWi2NhYOjw8JAiK4uLiqKioiC1Gy2xg+y1ElwJnX/b09MjYHAKBgLa3t1nECCmxIhJqdLuE3hwjf+kQUCs++Ant90tLS+W9vb2Ul5dHjY2NlJyczHJKHR0d1N/fT/n5+cyRTK/XfyAWi0tiYmKEEByZzWaKioqiwcFBqq2thW975t7e3p/MB3eWY4TyU0x0B2FTIYTWsrKyAOYUYSNfwKJSUVFBi4uLjp2dHWFOTg5lZGRQVVWVE84/3t/fnzy2PU1AivD9jPdtrMZRWVkpSkpKosvCZrORSqWi9PR00mq1TAd/YAd8iCHLsc0JDcC5GqvMmZ+f57q7u3k5Z5iZmSEUHBofH6f6+nqW+5uI7i1PmxMEoM6PUlNTKSEhga4Co6Oj7ndzczPV1dVRSkqKA8JUn0sAg/q1tTU7XRF0Oh01NDRQeXm5+/fq6qoDr388bU5oAIp/Bc/faWlpioGBAQmKCF0FNjY2qKamxoLUGiHQN7FzHp1JgAFOX8O+n4Rg3oqOjjZCjIrc3FwObfIHiCZNT08T6oAZZ4AU6b2P7ZiF2rHlaced870AgnwP71wIpwBklJGRkSaNRiPDlhJ4EycqIQ0NDbk6OzvNKDwyELmHpxP7/lcM207bc+QDgoODk0FEg1VoMNkbqHZHXV1dMra9PNHU1OTEoQMTlxnPMLbhDwj3A29z+0TAE4jM23hVgcxnWCUVFBRwrM6jyNiHh4dZuwGr/RE2Jl/m85vAMbCfv8br+5WVFVpaWmIHkxXOM1Fo5vyZR0iXBAQ1j5vOF0qlUg6x2dfX139D/lvIT1yaAAOqZgxSkbiwsMAIdVgsFh35CV5XMgjtEEJzHR0dCUFk5/Q4xKuiC9LMiwADHLvPesDp2c/uEOj/C1p519v3fG/FLlyxSa1WOycmJtpxZ3gHhNhe53Af+ARHrwTjBnpWBODMsLy8LBgZGRGhhN8YGxv7CilxhxzOCRfWBYPBsOZ1DuIBrPgGCtR9aCH49BjCr8NtKBPH8WN6VgQYcLt9WSQSnTi/QWgTxehf1rzoe94E+OJa/pq9IPBcE3gKAAD//3bRkNoAAAAGSURBVAMAlYXf9/57HfwAAAAASUVORK5CYII=") 16 3,auto;cursor:-webkit-image-set(url("data:image/png;base64,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") 2x) 16 3,auto;cursor:image-set(url("data:image/png;base64,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") 2x) 16 3,auto}
 .pad{padding-left:32px;padding-right:32px}
-.top{display:flex;justify-content:space-between;gap:8px 24px;padding-top:20px;color:var(--muted)}
+.top{display:flex;justify-content:space-between;gap:8px 24px;padding-top:16px;color:var(--muted)}
 .top a{color:var(--muted);text-decoration:none}
-.top .tl{display:flex;gap:20px}
-.hero{padding-top:40px;padding-bottom:24px}
-.stmt{margin:16px 32px 0;padding:28px 40px;min-height:0;background:var(--accent);color:#FFFFFF;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:32px;align-items:end}
+.hero{padding-top:20px;padding-bottom:16px}
+.stmt{margin:8px 32px 0;padding:20px 32px;min-height:0;background:var(--accent);color:#FFFFFF;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:32px;align-items:end}
 .stmt .fish{grid-column:1 / 6;grid-row:1 / 3;align-self:end;margin:0;font-size:12px;color:#D4E4DC}
 @media (hover:none){.stmt .fish{display:none}}
-.stmt .policy{grid-row:2;grid-column:6 / 13;margin:16px 0 0;font-size:16px;line-height:1.45;color:#D4E4DC;max-width:46em}
-.stmt .lede{grid-row:1;grid-column:6 / 13;max-width:none;margin:0;font-size:clamp(22px,2.4vw,30px);line-height:1.18}
-h1{margin:0;font-size:clamp(56px,9vw,128px);line-height:.9;font-weight:600;letter-spacing:-.045em}
+.stmt .policy{grid-row:2;grid-column:6 / 13;margin:10px 0 0;font-size:15px;line-height:1.45;color:#D4E4DC;max-width:46em}
+.stmt .lede{grid-row:1;grid-column:6 / 13;max-width:none;margin:0;font-size:clamp(19px,1.9vw,24px);line-height:1.18}
+h1{margin:0;font-size:clamp(44px,6vw,84px);line-height:.9;font-weight:600;letter-spacing:-.045em}
 .hero h1{display:block}
 .hero .fn{display:inline-block}
 .hero .ln{display:block;text-align:right}
 .lw{display:inline-block;text-align:left}
-.ov{display:block;font-size:clamp(22px,2.4vw,32px);line-height:1;font-weight:500;letter-spacing:-.01em;color:var(--muted);margin:0 0 -.1em .06em}
+.ov{display:block;font-size:clamp(18px,1.8vw,24px);line-height:1;font-weight:500;letter-spacing:-.01em;color:var(--muted);margin:0 0 -.1em .06em}
 .info .ava{margin-top:8px;font-size:14px;color:var(--muted)}
 .lede{margin:0;font-size:clamp(26px,3.2vw,40px);line-height:1.12;font-weight:500;letter-spacing:-.03em}
 .band{margin:0 32px;min-height:320px;padding:36px 40px;background:var(--accent);color:var(--band-ink);display:flex;flex-direction:column;justify-content:space-between;gap:24px}
 .band blockquote{margin:0;max-width:30ch;font-size:clamp(24px,3vw,38px);line-height:1.15;font-weight:500;letter-spacing:-.025em}
 .band figcaption{font-size:14px}
-.info{display:flex;flex-wrap:wrap;gap:40px;padding-top:40px;padding-bottom:64px;font-size:17px;line-height:1.4}
+.info{display:flex;flex-wrap:wrap;gap:32px 40px;padding-top:28px;padding-bottom:40px;font-size:16px;line-height:1.4}
 .info>div{flex:1 1 220px;min-width:0}
 .info>.wide{flex:2.2 1 460px}
 .lab{margin:0 0 10px;font-size:13px;font-weight:600;color:var(--muted)}
-.lab+.lab,.gap{margin-top:28px}
+.lab+.lab,.gap{margin-top:22px}
 .info p{margin:0}
 .mi{color:var(--muted);font-size:14px}
 .info .m,.list .m{display:block;font-size:14px;font-weight:400;letter-spacing:0;color:var(--muted);margin-top:4px}
-.stack{display:flex;flex-direction:column;gap:14px;max-width:60ch}
+.top .links{display:flex;gap:20px}
+.top .links a:hover{color:var(--ink);opacity:1}
+.pair{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px}
+.pair>div{min-width:0}
+.wlist{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.4}
+.wlist .m{display:block;font-size:13.5px;color:var(--muted);margin-top:3px}
+@media (max-width:700px){.pair{grid-template-columns:minmax(0,1fr)}}
+.stack{display:flex;flex-direction:column;gap:10px;max-width:60ch}
 .lead-m{margin:0 0 12px!important;font-size:14px;color:var(--muted)}
 .sec{margin:0 32px;padding:32px 0 56px;border-top:1px solid var(--rule);display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px}
-.sec:last-of-type{padding-bottom:56px}
+.sec:last-of-type{padding-bottom:80px}
 .sec h2{margin:0;font-size:13px;font-weight:600;color:var(--ink)}
 .list{grid-column:span 3;margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;font-size:20px;line-height:1.3;font-weight:500;letter-spacing:-.015em}
 .list .n{display:inline-block;min-width:3.6em;color:var(--link)}
 .list.sm{gap:20px;max-width:64ch}
 .list.row{flex-direction:row;flex-wrap:wrap;gap:12px 48px;font-size:18px;line-height:1.35;letter-spacing:-.01em}
-.hold{grid-column:span 3;max-width:44em}
-.hold .b1,.hold .b2{margin:0;font-size:20px;line-height:1.3;font-weight:500;letter-spacing:-.02em}
-.hold .b2{margin-top:14px;color:var(--muted)}
 footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted)}
 /* photography */
 .ph-title{margin:48px 32px 20px}
@@ -111,11 +114,11 @@ footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-s
 </head>
 <body>
 <div id="home">
-<div class="top pad"><span>Moral &amp; Political Philosophy</span><span class="tl"><a href="cv.pdf" target="_blank" rel="noopener">CV ↗</a><a href="https://www.linkedin.com/in/hojeongavalee/" target="_blank" rel="noopener">LinkedIn ↗</a></span></div>
+<div class="top pad"><span>Moral &amp; Political Philosophy</span><nav class="links"><a href="https://www.linkedin.com/in/hojeongavalee" target="_blank" rel="noopener">LinkedIn</a><a href="cv.pdf" target="_blank" rel="noopener">CV</a></nav></div>
 <header class="hero pad">
 <h1><span class="fn">Hojeong</span> <span class="ln"><span class="lw"><span class="ov">“Ava”</span> Lee</span></span></h1>
 </header>
-<div class="stmt"><p class="fish">The torpedo fish is from Plato’s Meno (80a).</p><p class="lede">My philosophical research centers on moral agency:<br>how we judge, feel, and act, and what changes when AI enters the picture.</p><p class="policy">My MA combines philosophy with political science, and I hope to bring these questions into international policy, especially AI governance and human rights.</p></div>
+<div class="stmt"><p class="fish">The torpedo fish is from Plato’s Meno (80a).</p><p class="lede">My philosophical research centers on moral agency:<br>how we judge, feel, and act, and what changes when AI enters the picture.</p><p class="policy">My MA combines philosophy with political science, and I am also interested in bringing these questions into policy, especially AI governance and human rights in the digital age.</p></div>
 <div class="info pad">
 <div>
 <h2 class="lab">Now</h2>
@@ -124,17 +127,26 @@ footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-s
 <p>BA Philosophy<span class="m">Yonsei University, Seoul, 2019 – 2024 · GPA 4.13 / 4.5</span></p>
 <p style="margin-top:12px">Exchange year<span class="m">UC Santa Barbara, 2022 – 2023</span></p>
 </div>
-<div class="wide">
-<h2 class="lab">Current work</h2>
-<p class="lead-m">MA thesis, two possible directions (working titles)</p>
+<div class="wide pair">
+<div>
+<h2 class="lab">Research interests</h2>
 <div class="stack">
-<p>How Anger Moves Us: Motivation, Aptness, and Solidarity in Political Life</p>
-<p>“The AI Said So”: Delegated Judgment and the Limits of Autonomy</p>
+<p>Philosophy of action</p>
+<p>Moral responsibility</p>
+<p>Autonomy and AI</p>
+<p>Self-deception</p>
+<p>Human rights</p>
+<p>Digital governance</p>
+</div>
+</div>
+<div>
+<h2 class="lab">Writing</h2>
+<ol class="wlist"><li>Self-Deception in Human–AI Emotional Relations: What Does the Duty to Seek Truth Require Us to Know?<span class="m">Seminar paper, Ethics of Large Language Models · 2026</span></li><li>The Past of the Future: Différance, the Gift, and the Structure of Economic Uncertainty<span class="m">Seminar paper on Derrida, Economic Uncertainty and Risk: Phenomenology and Feminist Thought · 2026</span></li><li>Agency as Ground, Capacity as Criterion: The Structural Tension in Griffin’s Theory of Human Rights<span class="m">Seminar paper, Philosophical Theories of Human Rights · 2026</span></li><li>Is Intuition a Legitimate Ground for Moral Judgment? Redefining Intuition as Perception Against the Evolutionary Debunking Argument<span class="m">Seminar paper, Introduction to Normative Ethics · 2026</span></li></ol>
 </div>
 </div>
 <div>
 <h2 class="lab">Languages</h2>
-<p>Korean <span class="mi">native</span><br>English <span class="mi">fluent</span><br>German <span class="mi">B1, in progress</span></p>
+<p>Korean <span class="mi">native</span><br>English <span class="mi">fluent (C1)</span><br>German <span class="mi">B1, in progress</span></p>
 <h2 class="lab gap">Off the page</h2>
 <p><a href="#photography">Photography</a></p>
 <h2 class="lab gap">Contact</h2>
@@ -142,10 +154,7 @@ footer{margin:0 32px;padding:20px 0 40px;border-top:1px solid var(--rule);font-s
 <p class="ava">Feel free to call me Ava!</p>
 </div>
 </div>
-<section class="sec"><h2>What I Hold</h2><div class="hold"><p class="b1">Living with others, I think, asks for two things at once: the charity to read them as making sense on their own terms, and the capacity to feel wronged on their behalf.</p><p class="b2">Understanding without feeling is cold; feeling without understanding is blind. I hope to live and work in a way that holds both.</p></div></section>
-<section class="sec"><h2>My Questions</h2><ol class="list"><li><span class="n">One.</span>What are moral intuitions, and can they ground moral judgment?</li><li><span class="n">Two.</span>What makes us morally responsible for what we do?</li><li><span class="n">Three.</span>What are emotions, and how do they move us to act?</li><li><span class="n">Four.</span>How is self-deception possible, and what do we owe to the truth?</li><li><span class="n">Five.</span>What is agency, and can it ground human rights?</li><li><span class="n">Six.</span>What happens to our judgment, emotions, and autonomy when we relate to AI?</li></ol></section>
-<section class="sec"><h2>Writing</h2><ol class="list sm"><li>Self-Deception in Human–AI Emotional Relations: What Does the Duty to Seek Truth Require Us to Know?<span class="m">Seminar paper, Ethics of Large Language Models · 2026</span></li><li>Completing Each Other’s Roles: The ROK–EU Counter-Role Taking in the Digital Domain<span class="m">Seminar paper, East Asia in Times of Global Disorder · 2026</span></li><li>The Past of the Future: Différance, the Gift, and the Structure of Economic Uncertainty<span class="m">Seminar paper on Derrida, Economic Uncertainty and Risk: Phenomenology and Feminist Thought · 2026</span></li><li>Agency as Ground, Capacity as Criterion: The Structural Tension in Griffin’s Theory of Human Rights<span class="m">Seminar paper, Philosophical Theories of Human Rights · 2026</span></li><li>Is Intuition a Legitimate Ground for Moral Judgment? Redefining Intuition as Perception Against the Evolutionary Debunking Argument<span class="m">Seminar paper, Introduction to Normative Ethics · 2026</span></li></ol></section>
-<footer>Last updated: October 2026</footer>
+<footer>Last updated: November 2026</footer>
 </div>
 
 <div id="photography" hidden>
